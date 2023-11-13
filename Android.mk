@@ -26,6 +26,10 @@ LOCAL_CERTIFICATE := platform
 LOCAL_SYSTEM_EXT_MODULE := true
 LOCAL_REQUIRED_MODULES := privapp_whitelist_org.omnirom.omnijaws-ext.xml
 
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+    androidx.window.extensions \
+    androidx.window.sidecar
+
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     com.google.android.material_material \
     SettingsLib
